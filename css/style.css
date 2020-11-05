@@ -1,10 +1,23 @@
 *{
-  margin:0;
   padding: 0;
   box-sizing: border-box;
 }
 .container{
-  width: 1000px;
   height: 500px;
-  background-color: rgb(143, 195, 65);
+  width: 1000px;
+  background-color: lightgreen;
+}
+.sezione {
+  margin-top: 20px;
+
+}
+.box{
+  display:inline-block;
+  position:relative;
+}
+.sconto{
+  background-color: red;
+  position: absolute;
+  top:0;
+  right:0;
 }
